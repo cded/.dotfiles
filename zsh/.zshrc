@@ -20,7 +20,7 @@ setopt HIST_FIND_NO_DUPS
 
 ### ---- PLUGINS & THEMES -----------------------------------
 source $ZSH/themes/spaceship-prompt/spaceship.zsh-theme
-source $ZSH/plugins/fast-syntax-highlighting/F-Sy-H.plugin.zsh
+source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 fpath=($ZSH/plugins/zsh-completions/src $fpath)
@@ -64,9 +64,6 @@ alias yb="yarn build"
 alias ys="yarn start"
 alias python="python3"
 alias pip="pip3"
-alias nv="nvim"
-alias vi="nvim"
-alias v="nvim"
 alias tr2="tree -a -L 2"
 alias cls="clear"
 alias tm="tmux "
